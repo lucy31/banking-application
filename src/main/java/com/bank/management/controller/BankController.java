@@ -12,7 +12,11 @@ public class BankController {
 	@ResponseBody
 	public ModelAndView login(String username, String password) {
 		ModelAndView mv = new ModelAndView("");
+<<<<<<< HEAD
 		System.out.println("Inside the login method");
+=======
+		System.out.println("Inside login method");
+>>>>>>> registerBranch
 		return mv;
 	}
 
@@ -20,7 +24,11 @@ public class BankController {
 	@ResponseBody
 	public ModelAndView register() {
 		ModelAndView mv = new ModelAndView("");
+<<<<<<< HEAD
 S		ystem.out.println("Inside register method");
+=======
+		System.out.println("Inside register method");
+>>>>>>> registerBranch
 		return mv;
 	}
 }

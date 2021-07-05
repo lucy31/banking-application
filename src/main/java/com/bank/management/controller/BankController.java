@@ -20,7 +20,7 @@ public class BankController {
 	@ResponseBody
 	public ModelAndView register() {
 		ModelAndView mv = new ModelAndView("");
-		ystem.out.println("Inside register method");
+		System.out.println("Inside register method");
 		return mv;
 	}
 }

@@ -12,7 +12,7 @@ public class BankController {
 	@ResponseBody
 	public ModelAndView login(String username, String password) {
 		ModelAndView mv = new ModelAndView("");
-		System.out.println("Inside login method");
+		System.out.println("Inside the login method");
 		return mv;
 	}
 
